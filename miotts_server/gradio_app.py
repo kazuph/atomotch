@@ -144,7 +144,7 @@ def build_app() -> gr.Blocks:
                 placeholder="http://localhost:8001",
             )
 
-        text = gr.Textbox(label="Text", lines=6, placeholder="Type text to synthesize...")
+        text = gr.Textbox(label="Text", lines=6, value="みなさんこんにちは、AIコーディングポッドキャストのお時間です。パーソナリティのかずふです。今日も楽しくやっていきましょう。よろしくお願いします。", placeholder="Type text to synthesize...")
 
         with gr.Row():
             reference_mode = gr.Radio(
