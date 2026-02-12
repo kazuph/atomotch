@@ -164,7 +164,7 @@ def build_app() -> gr.Blocks:
 
         reference_audio = gr.Audio(
             label="Reference Audio",
-            sources=["upload"],
+            sources=["microphone", "upload"],
             type="numpy",
             visible=False,
         )
